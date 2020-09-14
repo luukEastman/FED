@@ -1,12 +1,12 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -LUUK-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. https://www.nationalgeographic.nl/
 2. -bron 2-
 3. -...-
 
@@ -62,9 +62,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **nationalgeographic.com
 
-**:**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/phone.png)
 
 **Breakdown-schets(en):**
 
