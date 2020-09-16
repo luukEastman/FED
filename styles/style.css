@@ -1,5 +1,106 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+
 }
 
+body{
+ width:100vw;
+ margin: 0 auto;
+ font-family: sans-serif;
+ font-weight: bold;
+}
+/* Algemeen  */
+
+
+/* navigatie */
+header nav{
+  background-color:black;
+  width: 100%
+}
+
+header nav + nav{
+
+  background-color: white;
+  border-bottom-style: solid;
+  border-color: lightgrey;
+  line-height: 3em;
+}
+
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+
+}
+
+ nav ul li:first-of-type{
+  margin-right:auto;
+}
+
+nav ul li{
+  margin: 0.5em;
+  padding: 0;
+
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+}
+
+nav + nav a{
+  color: black;
+}
+
+/* content */
+section{
+
+  width: 75%;
+  margin: 0 auto;
+}
+
+section:first-of-type article:nth-of-type(n+2){
+width: 80%;
+margin: auto;
+}
+article{
+  width: 100%;
+  position: relative;
+}
+h1{
+  text-align: center;
+  font-size: 300%;
+  margin: 0
+}
+h2{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0.2em;
+
+}
+
+section:nth-last-of-type(odd){
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section:nth-last-of-type(odd) article{
+  flex-basis:33%;
+}
+section:nth-last-of-type(odd) h1{
+  flex-basis: 100%;
+  color:white;
+}
+
+section:nth-last-of-type(odd) h2{
+
+  color:white;
+}
