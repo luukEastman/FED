@@ -5,15 +5,18 @@
 }
 
 body{
- width:100vw;
+
  margin: 0 auto;
  font-family: sans-serif;
  font-weight: bold;
+
+
 }
 /* Algemeen  */
 
 
 /* navigatie */
+
 header nav{
   background-color:black;
   width: 100%
@@ -30,9 +33,12 @@ header nav + nav{
 
 nav ul{
   list-style: none;
+
   display: flex;
   justify-content: flex-start;
-  margin: 0;
+
+  width: 95%;
+  margin: 0 auto;
   padding: 0;
 
 }
@@ -42,8 +48,12 @@ nav ul{
 }
 
 nav ul li{
+
   margin: 0.5em;
-  padding: 0;
+  color: white;
+  text-decoration: none;
+  padding: 0em;
+
 
 }
 
@@ -57,9 +67,66 @@ nav + nav a{
   color: black;
 }
 
+/* hamburgermenu */
+.visually-hidden {
+  /* bron: a11y */
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+nav div{
+  width: 100%;
+  min-width: 2em;
+}
+
+nav fieldset{
+border-style: none;
+padding: 0;
+}
+
+form input:focus + label img{
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+form input:checked + label img{
+  width: 1em;
+  transform: scale(1.2);
+  transition: 1s;
+  margin: 1em;
+
+}
+
+form input:checked + label{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+ transition: 1s;
+
+
+  background-color: #bbb;
+
+  display:flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+}
+
+
+
+
+
+
+
 /* content */
 section{
-
   width: 75%;
   margin: 0 auto;
 }
@@ -68,6 +135,7 @@ section:first-of-type article:nth-of-type(n+2){
 width: 80%;
 margin: auto;
 }
+
 article{
   width: 100%;
   position: relative;
@@ -87,13 +155,14 @@ h2{
 }
 
 section:nth-last-of-type(odd){
+  width:100%;
   background-color:black;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 section:nth-last-of-type(odd) article{
-  flex-basis:33%;
+  flex-basis:25%;
 }
 section:nth-last-of-type(odd) h1{
   flex-basis: 100%;
