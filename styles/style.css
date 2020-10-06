@@ -136,53 +136,84 @@ section{
 
 section:first-of-type article:first-of-type{
 width: 100%;
-margin: auto;
+order: -1;
 }
 
-article{
+section article{
   width: 80%;
+  align-items: center;
+  margin: 0em;
   position: relative;
 }
 
-
-h1{
+section h1{
   text-align: center;
   font-size: 300%;
   margin: 0
 }
-h2{
+
+article h2{
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  left: 0;
+  bottom:0;
   margin: 0;
-  padding: 0.2em;
   color: white;
+}
+
+article img{
+ width: 100%;
+ margin: auto;
+
+
 }
 
 section:nth-of-type(even){
   width:100%;
+  margin:auto;
   background-color:black;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+section:nth-of-type(even) h1{
+  width:100%;
+  text-align: center;
+  color:white;
+}
+
+section:nth-of-type(even) ul{
+  width: 100%;
+  padding: 0%;
+  margin: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+section:nth-of-type(even) ul li{
+  list-style: none;
+  margin: 0;
+  padding:0;
+  flex-basis: 20em;
+  flex-grow: 1;
+  align-items: center;
+
+}
 section:nth-of-type(even) article{
-  flex-basis:80%;
-  margin: 1em;
+margin:auto;
+
 }
-section:nth-of-type(even) h1{
-  flex-basis: 100%;
-  color:white;
-}
+
 
 section:nth-of-type(even) h2{
-color:white;
+ color:white;
 }
 
-
-article img{
-  width: 100%;
-}
+/* article img{
+ width: 100%;
+ position: relative;
+} */
 
 @media (min-width:650px){
 
@@ -210,10 +241,6 @@ article img{
       width: 100%;
     }
 
-
-
-
-
     section:first-of-type article:nth-of-type(even){
       grid-column: 1 / 2;
       width: 100%;
@@ -233,11 +260,11 @@ article img{
     section:nth-of-type(even){
      width:100%;
      background-color:black;
-     display: flex;
+     /* display: flex;
      justify-content: center;
 
      flex-wrap: wrap;
-     padding: 5%
+     padding: 5% */
     }
 
     section:nth-of-type(even) article{
