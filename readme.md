@@ -1,5 +1,6 @@
 # Procesverslag
 **Auteur:** -LUUK-
+Github-pages: https://luukeastman.github.io/FED/
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -38,15 +39,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik vond het moeilijk om aan de slag te gaan, maar ik vond het leuk toen ik bezig was.
+Ik wilde een hamburgermenu maken zonder javascript, maar dat is nog niet gelukt.
 
 **Screenshot(s):**
 
+Hier wil ik naartoe:
+![smallscreen](images/layout_phone.png)
+![tablet](images/layout_tablet.png)
+![desktop](images/layout_desktop.png)
+
 -screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
+![desktop](images/ss_site_status.png
 
 ### Verslag van meeting
 
