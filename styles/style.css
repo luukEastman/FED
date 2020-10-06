@@ -143,6 +143,8 @@ article{
   width: 80%;
   position: relative;
 }
+
+
 h1{
   text-align: center;
   font-size: 300%;
@@ -154,6 +156,7 @@ h2{
   left: 0px;
   margin: 0;
   padding: 0.2em;
+  color: white;
 }
 
 section:nth-of-type(even){
@@ -174,6 +177,11 @@ section:nth-of-type(even) h1{
 
 section:nth-of-type(even) h2{
 color:white;
+}
+
+
+article img{
+  width: 100%;
 }
 
 @media (min-width:650px){
