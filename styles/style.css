@@ -65,6 +65,15 @@ nav a{
 
 nav + nav a{
   color: black;
+  width:100%;
+}
+
+nav a img{
+  width:50%;
+  transform:scale(0.8);
+  float: left;
+  padding: 0;
+  margin: 0;
 }
 
 /* hamburgermenu */
@@ -88,7 +97,28 @@ border-style: none;
 padding: 0;
 }
 
-form input:focus + label img{
+form input{
+  width:10vw;
+  height:10vw;
+  border-radius: 100%;
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: darkgrey;
+  background-image: url("images/zoeken.svg");
+  background-position: center;
+  outline: none;
+  padding: 0.5em;
+
+
+}
+
+form input:focus{
+  width: 30vw;
+  border-radius: 20px;
+  transition: 0.5s;
+
+}
+/* form input:focus + label img{
   transform: rotate(360deg);
   transition: 1s;
 }
@@ -99,7 +129,7 @@ form input:checked + label img{
   transition: 1s;
   margin: 1em;
 
-}
+} */
 
 form input:checked + label{
   position: absolute;
@@ -136,53 +166,86 @@ section{
 
 section:first-of-type article:first-of-type{
 width: 100%;
-margin: auto;
+order: -1;
 }
 
-article{
+section article{
   width: 80%;
+  align-items: center;
+  margin: 0em;
   position: relative;
 }
 
-
-h1{
+section h1{
   text-align: center;
   font-size: 300%;
   margin: 0
 }
-h2{
+
+article h2{
   position: absolute;
-  bottom: 0px;
-  left: 0px;
+  left: 0;
+  bottom:0;
   margin: 0;
-  padding: 0.2em;
   color: white;
+}
+
+article img{
+ width: 100%;
+ margin: auto;
+
+
 }
 
 section:nth-of-type(even){
   width:100%;
+  margin:auto;
   background-color:black;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+section:nth-of-type(even) h1{
+  width:100%;
+  text-align: center;
+  color:white;
+}
+
+section:nth-of-type(even) ul{
+  width: 100%;
+  padding: 0%;
+
+  margin: 0;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+section:nth-of-type(even) ul li{
+  list-style: none;
+  margin: 0;
+  padding:0;
+
+  flex-basis: 20em;
+  flex-grow: 1;
+  align-items: center;
+
+}
 section:nth-of-type(even) article{
-  flex-basis:80%;
-  margin: 1em;
+margin:auto;
+
 }
-section:nth-of-type(even) h1{
-  flex-basis: 100%;
-  color:white;
-}
+
 
 section:nth-of-type(even) h2{
-color:white;
+ color:white;
 }
 
-
-article img{
-  width: 100%;
-}
+/* article img{
+ width: 100%;
+ position: relative;
+} */
 
 @media (min-width:650px){
 
@@ -210,10 +273,6 @@ article img{
       width: 100%;
     }
 
-
-
-
-
     section:first-of-type article:nth-of-type(even){
       grid-column: 1 / 2;
       width: 100%;
@@ -233,11 +292,11 @@ article img{
     section:nth-of-type(even){
      width:100%;
      background-color:black;
-     display: flex;
+     /* display: flex;
      justify-content: center;
 
      flex-wrap: wrap;
-     padding: 5%
+     padding: 5% */
     }
 
     section:nth-of-type(even) article{
@@ -343,4 +402,34 @@ article img{
      flex-wrap: wrap;
      color:white;
     }
+}
+
+/* //aanpassingen voor de tweede pagina// */
+aside{
+  background-color: lightgrey;
+}
+
+aside nav ul{
+  display: flex;
+
+  flex-basis: 30em;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+aside nav li img {
+width:100%;
+}
+figure img{
+  width: 100%;
+}
+
+main h1{
+  text-align: center;
+}
+main p{
+font-weight: lighter;
+text-align: center;
+width: 80%;
+margin: auto;
 }
