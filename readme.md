@@ -25,7 +25,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ik heb gepraat met de studentassistenen en die hadden me geholpen met een pva maken. Ik moest content gaan toevoegen aan mijn website.
 
 
 
@@ -54,7 +54,7 @@ Hier wil ik naartoe:
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Ging goed, Ik had een navigatie en een smalscreen, maar ik had nog geen js gebruikt voor de interactie.
 
 
 
