@@ -310,6 +310,69 @@ section:nth-of-type(even) h2{
  color:white;
 }
 
+
+aside{
+  background-color: lightgrey;
+}
+
+aside nav ul{
+  display: flex;
+
+  flex-basis: 30em;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+aside nav li img {
+width:100%;
+}
+figure img{
+  width: 100%;
+}
+
+main h1{
+  text-align: center;
+
+}
+
+h1 + h2{
+  text-align: center;
+}
+figure{
+  padding: 0;
+}
+
+main p{
+  font-weight: lighter;
+  text-align: left;
+  width: 80%;
+  margin: 2em auto;
+}
+
+figcaption p{
+  text-align: left;
+  margin: 0;
+}
+
+figure + h2{
+  text-align: center;
+}
+
+main p{
+  font-weight: lighter;
+  text-align: left;
+  width: 80%;
+  margin: 2em auto;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  line-height: 5em;
+  text-align: center;
+}
+
+
 /* 💛eerste breakpoint voor tablet. */
 @media (min-width:650px){
     section:first-of-type{
@@ -367,6 +430,10 @@ section:nth-of-type(even) h2{
      flex-basis: 100%;
      flex-wrap: wrap;
      color:white;
+    }
+
+    main p{
+      width: 50%;
     }
 }
 
@@ -436,61 +503,10 @@ section:nth-of-type(even) h2{
         align-self: end;
     }
 
-
+    main p{
+      width: 50%;
+    }
 
 }
 
 /* //aanpassingen voor de tweede pagina// */
-aside{
-  background-color: lightgrey;
-}
-
-aside nav ul{
-  display: flex;
-
-  flex-basis: 30em;
-  flex-wrap: wrap;
-  flex-grow: 1;
-}
-
-aside nav li img {
-width:100%;
-}
-figure img{
-  width: 100%;
-}
-
-main h1{
-  text-align: center;
-
-}
-
-h1 + h2{
-  text-align: center;
-}
-figure{
-  padding: 0;
-}
-
-figcaption p{
-  text-align: left;
-  margin: 0;
-}
-
-figure + h2{
-  text-align: center;
-}
-
-main p{
-  font-weight: lighter;
-  text-align: left;
-  width: 80%;
-  margin: 2em auto;
-}
-
-footer{
-  background-color: black;
-  color: white;
-  line-height: 5em;
-  text-align: center;
-}
