@@ -6,52 +6,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. code gevonden op:https://cssgradient.io/blog/css-gradient-text/ voor een kleuroverloop in tekst*/ r240 van css
+2. css tricks https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor algemene flexbox tips.
+3. Media queries - oefening 3 uitwerking.
+4. Sanne t Hoofd en Romy Wiedijk als student assistenten
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
-
+IK had het niet helemaal af, maar was al op de goede weg. Sinds dit gesprek heb de header uitgebreid, content toegevoegd, te tweede pagina opgemaakt en wat ineracties toegevoegd.
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
+Ik was super aanwezig in de meeting met de twee studentassistenten: Romy en Jo-ann. De focus lag nog bij content toevoegen.
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
-
-
+Ik heb niet veel vooruitgang geboekt, maar ben nog steeds reuze gemotiveerd.
 
 ## Voortgang 1 (week 3)
 
-### Stand van zaken
-
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
+Wat een positief gesprek, moet wel javascript in mijn site stoppen.
 
 
 ## Intake (week 1)
