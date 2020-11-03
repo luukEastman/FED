@@ -1,13 +1,12 @@
 # Procesverslag
-**Auteur:** -LUUK-
-Github-pages: https://luukeastman.github.io/FED/
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. https://www.nationalgeographic.nl/
+1. -bron 1-
 2. -bron 2-
 3. -...-
 
@@ -25,7 +24,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
-Ik heb gepraat met de studentassistenen en die hadden me geholpen met een pva maken. Ik moest content gaan toevoegen aan mijn website.
+-same as voortgang 1-
 
 
 
@@ -39,22 +38,19 @@ Ik heb gepraat met de studentassistenen en die hadden me geholpen met een pva ma
 
 ### Stand van zaken
 
-Ik vond het moeilijk om aan de slag te gaan, maar ik vond het leuk toen ik bezig was.
-Ik wilde een hamburgermenu maken zonder javascript, maar dat is nog niet gelukt.
+-dit ging goed & dit was lastig-
 
 **Screenshot(s):**
 
-Hier wil ik naartoe:
-![smallscreen](images/layout_phone.png)
-![tablet](images/layout_tablet.png)
-![desktop](images/layout_desktop.png)
-
 -screenshot(s) van hoe ver je bent-
-![desktop](images/ss_site_status.png
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
 
 ### Verslag van meeting
 
-Ging goed, Ik had een navigatie en een smalscreen, maar ik had nog geen js gebruikt voor de interactie.
+-na afloop snel uitkomsten vastleggen-
 
 
 
@@ -66,10 +62,10 @@ Ging goed, Ik had een navigatie en een smalscreen, maar ik had nog geen js gebru
 
 **nationalgeographic.com
 
+**:**
 
-
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/phone.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdownschets.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
