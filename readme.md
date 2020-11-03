@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Luuk Eastman
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -43,10 +43,9 @@ Wat een positief gesprek, moet wel javascript in mijn site stoppen.
 
 **nationalgeographic.com
 
-**:**
-
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/layout_all.pdf)
-
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breaksownschets.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/layout_phone.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/layout_tablet.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/layout_desktop.png)
